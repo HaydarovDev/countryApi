@@ -23,7 +23,7 @@ const Card = () => {
       {country && (
         <>
           <button
-            onClick={() => navigate(-1)} // Bu yerda -1 bir qadam ortga qaytish uchun
+            onClick={() => navigate(-1)}
             className="mt-5 p-2 flex items-center ml-7"
           >
             <IoArrowBackOutline /> Back
